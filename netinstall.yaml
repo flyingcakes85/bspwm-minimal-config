@@ -153,7 +153,7 @@
     - lightdm
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
-    - rofi
+    - dmenu
     - xcursor-neutral
     - xbindkeys
     - pulseaudio
