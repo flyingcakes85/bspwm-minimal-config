@@ -21,6 +21,7 @@ echo "dex -a -s /etc/xdg/autostart/:~/.config/autostart/" >> /home/$NEW_USER/.co
 echo "picom -CGb &" >> /home/$NEW_USER/.config/bspwm/bspwmrc
 echo "nm-applet --indicator &" >> /home/$NEW_USER/.config/bspwm/bspwmrc
 echo "xsetroot -cursor_name left_ptr &" >> /home/$NEW_USER/.config/bspwm/bspwmrc
+echo "bspc rule -a Yad state=floating" >> /home/$NEW_USER/.config/bspwm/bspwmrc
 sed -i "s/urxvt/xfce4-terminal/g" /home/$NEW_USER/.config/sxhkd/sxhkdrc
 sed -i "s/dmenu_run/dmenu_run -i -p Run -nb '#1e1e1e' -nf '#b0b5bd' -sb '#7e3ebe' -sf '#ffffff'/g" /home/$NEW_USER/.config/sxhkd/sxhkdrc
 mkdir -p /home/$NEW_USER/.local/share/fonts
