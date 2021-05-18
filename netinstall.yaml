@@ -164,6 +164,7 @@
     - xorg-xbacklight
     - meld
     - xorg-xsetroot
+    - dex
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
