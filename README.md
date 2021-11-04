@@ -1,5 +1,7 @@
 # bspwm minimal config
 
+## Update : This does not work anymore with latest ISO. Use April 2021 ISO in case you want to follow. A better option will be to do a base install without DE and then add these configs.
+
 ### NOTE : This is an unofficial repo. Any issues related to the provided configs must be reported by creating an issue on this repo and NOT on the EndeavourOS forum.
 
 This is a minimal setup for bspwm that comes with mostly default configs. This is meant to be used like an install script that works with Calamares. The EndeavourOS Bspwm Community Edition may not be the minimal setup tinkerers usually want to install. So I created a similar repo here, which has Calamares `netinstall.yaml` file and a `setup.sh` and provides a minimal environment.
